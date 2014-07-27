@@ -11,7 +11,7 @@
     <script type="text/javascript" src="/bower_components/t3/dist/t3.min.js"></script>
     <script type="text/javascript">
 window.addEventListener('load', function(event) {
-  setInterval(function() {
+  setTimeout(function() {
 
 define(['t3'], function (t3) {
     return t3.Application.run({
@@ -32,7 +32,7 @@ define(['t3'], function (t3) {
 });
     
     window.console.log('t3 should be working now...');
-  }, 1000);    
+  }, 2500);    
 }, true)
     </script>
   </body>
