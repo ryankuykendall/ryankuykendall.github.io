@@ -1,0 +1,31 @@
+{
+  "name": "T3",
+  "version": "0.1.0",
+  "authors": [
+    "Mauricio Poppe <me@maurizzzio.com>"
+  ],
+  "description": "A template to build three.js applications",
+  "main": "index.js",
+  "moduleType": [
+    "globals",
+    "node"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "src"
+  ],
+  "homepage": "https://github.com/maurizzzio/t3",
+  "_release": "0.1.0",
+  "_resolution": {
+    "type": "version",
+    "tag": "v0.1.0",
+    "commit": "873d19eb37383ee977f507aa5272da4bffc9ab33"
+  },
+  "_source": "git://github.com/maurizzzio/t3.git",
+  "_target": "~0.1.0",
+  "_originalSource": "t3",
+  "_direct": true
+}
