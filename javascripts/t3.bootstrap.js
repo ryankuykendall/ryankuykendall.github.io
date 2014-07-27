@@ -1,16 +1,3 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="UTF-8"/>
-    <title>t3 bootstrap template</title>
-  </head>
-  <body>
-    <main id="canvas-container"></main>
-    <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/require.js/2.1.14/require.js"></script>
-    <script type="text/javascript" src="/javascripts/three.min.js"></script>
-    <script type="text/javascript" src="/bower_components/t3/dist/t3.min.js"></script>
-    <script type="text/javascript">
-window.addEventListener('load', function(event) {
 define(['t3'], function (t3) {
     return t3.Application.run({
         id: 'canvas-container',
@@ -28,7 +15,3 @@ define(['t3'], function (t3) {
         }
     });
 });
-  }, true)
-    </script>
-  </body>
-</html>
