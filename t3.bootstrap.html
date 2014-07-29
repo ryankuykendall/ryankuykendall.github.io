@@ -11,8 +11,6 @@
     <script type="text/javascript" src="/bower_components/t3/dist/t3.min.js"></script>
     <script type="text/javascript">
 window.addEventListener('load', function(event) {
-  setTimeout(function() {
-
 define(['t3'], function (t3) {
     return t3.Application.run({
         id: 'canvas',
@@ -31,8 +29,8 @@ define(['t3'], function (t3) {
     });
 });
     
-    window.console.log('t3 should be working now...');
-  }, 2500);    
+window.console.log('t3 should be working now...');
+
 }, true)
     </script>
   </body>
